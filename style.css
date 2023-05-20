@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'assistant', sans-serif;
+}
+
+.header {
+    background-color: #1A237E; color: azure;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 45px;
+    }
+
+
+
+
+.nav a {
+   color: rgb(252, 252, 252); text-decoration: none; 
+}
+.nav {
+    list-style: none;
+    margin: o;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.nav li {
+    margin-left: 20px;
+}
+.nav a:hover {
+    color: chocolate;
+}
+.portfolio {
+    background-color: lightskyblue;
+    padding: 1 45 30 45;
+    display: flex;
+    justify-content: center;
+    
+}
+.portfoilo-inner {
+   max-width: 760px;
+    
+.portfoilo-inner h1 {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 20 0 0 0;
+}
+.portfoilo-inner h2 {
+    margin: 10 0 0 0;
+}
+.portfoilo-inner p {
+    font-weight: 300;
+    font-size: 24;
+    line-height: 1.6;
+    margin: 0;
+}
+}
+/pic {
+    padding: 40 40;
+    padding: 20 auto;
+    max-width: 1000;
+}
+.pic-inner { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 200px, 1fr));
+     
+}
+.pic a {
+    color: #fff;
+    background-color: blue;
+    text-decoration: none;
+    padding: 10 20;
+    margin: 20 10;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: inline-block;
+
+}
+.pic a:hover { color: black;
+
+}
